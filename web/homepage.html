@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Josh's Homepage</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Josh's CS 313 Homepage</h1>
+    </div>
+    <div class="box">
+      <div class="display">
+        <img class="img" src="me.jpg" alt="Myself">
+      </div>
+      <div class="display">
+        My name is Josh Smith, but my friends just call me by my first name, for cultural reasons. I am a Computer Science major at BYU-Idaho. I have been married for over a year now at the creation of this website, but it is certainly possible that you are viewing this many centuries in the future. To that end, salutations from the past, and I hope that World War III went well for us.<br><br>
+        This webpage will link to my assignments for CS 313, so if you want to learn about the ancient art of web programming, this is the place to visit.
+        <br><br>
+      </div>
+      <div class="display">
+        <div class="header">
+          <h2>Assignment Links</h2>
+        </div>
+        <a class="button" href="assignments_index.html">Click Here</a>
+      </div>
+      <?php
+        echo "Today is " . date("l") . ", " . date("Y-m-d");
+      ?>
+    </div>
+  </body>
+</html>
