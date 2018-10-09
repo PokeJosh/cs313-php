@@ -1,0 +1,109 @@
+/**
+* CSS Stylesheet for Homepage
+* Josh Smith
+**/
+body {
+  text-align: center;
+  background-color: #c3eab2;
+  font-family: Courier;
+  color: #364631;
+  font-size:1em;
+}
+
+fieldset {
+border: none;
+}   
+
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+div.header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 40%;
+  background-color: #d6e5d3;
+  border-width: 2px;
+  border-color: #71905b;
+  border-style: dotted;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img {
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 65%;
+  background-color: #65935f;
+  border-width: 2px;
+  border-color: #405d39;
+  border-style: dotted;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.display {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 80%;
+  background-color: #c0e2ba;
+  border-width: 2px;
+  border-color: #71905b;
+  border-style: dotted;
+}
+
+a.index {
+    font-size: 80%;
+}
+a.noline {
+    text-decoration: none;
+}
+a:link {
+    color: #35396a;
+}
+a:visited {
+    color: #35396a;
+}
+a:hover {
+    color: #5b7690;
+}
